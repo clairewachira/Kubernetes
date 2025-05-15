@@ -1,0 +1,12 @@
+notepad Dockerfile
+ren Dockerfile.txt Dockerfile
+docker build -t drugdispensing-app:latest .
+notepad deployment.yaml
+kubectl apply -f deployment.yaml
+notepad service.yaml  
+kubectl apply -f service.yaml
+kubectl get pods
+notepad mysql-deployment.yaml
+kubectl apply -f mysql-deployment.yaml
+kubectl get svc
+
