@@ -44,6 +44,7 @@ kubectl apply -f k8s/mysql-service.yaml
                                    DB_USER=root
                                    DB_PASSWORD=yourpassword
 
+![Screenshot 2025-05-15 101140](https://github.com/user-attachments/assets/77274ebd-23e7-46c7-9306-3856025df395)
 
 Part 4: Expose App Using Ingress
 1.Install ingress-nginx controller:
